@@ -15,7 +15,11 @@ Route::get('/', function () {
     return view('stwelcome');
 });
 //Route::post('/usender', 'usenderController@usenderFunc')->name('usender');
-
+Route::get('/photogallery', 'InstController@insta');
+Route::get('/form', function () {
+    return view('form');
+});
+Route::post('send-mail', 'MailSetting@send_form');
 
 Auth::routes();
 

@@ -23,6 +23,9 @@
   <link rel="stylesheet" href="css/main.css">
 
   <script src="js/modernizr-2.7.1.js"></script>
+  <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="js/insta.js"></script> 
+
 
         
     </head>
@@ -165,7 +168,16 @@
 	    </div>
     </section>
 	
-	<section id="location">
+	<section id="photogallery">
+    <div class="text-center">
+      <h2 class="red">Photogallery</h2>
+      <ul id="ul">
+      </ul>
+    <!--token inst 7126735684.1677ed0.5f73f9117397439baa86c54faf4e86b2-->
+    </div>
+  </section>
+
+  <section id="location">
 	    <div class="text-center">
 			<h3 class="red">Наши адреса:</h3>
 			<h4>проспект Генерала Тюленева, 3</h4>

@@ -38,7 +38,7 @@ class MailClass extends Mailable
         ->with([
             'name' => $this->name,
             'email' => $this->email,
-            'msg' => $this->msg;
+            'msg' => $this->msg,
         ])
         ->subject(subject:'New letter');
 

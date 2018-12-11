@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
 use App\Mail\MailClass;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class MailSetting extends Controller
 {
@@ -15,5 +15,10 @@ class MailSetting extends Controller
     	$msg = $request->msg;
 
     	Mail::to('marita16121998@gmail.com')->send(new MailClass($name, $email, $msg));
+
+    	\Session::flash('flash_message','Успешно отправлено!');
+		
+		return redirect('/');
+
     }
 }

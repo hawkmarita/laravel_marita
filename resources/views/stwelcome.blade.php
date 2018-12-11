@@ -131,7 +131,7 @@
       </div>
     </section>
 	
-	<section id="be-the-first" class="pad-xl">
+	  <section id="be-the-first" class="pad-xl">
       <div class="container">
         <div class="row">
           <div class="col-sm-8 col-sm-offset-2 text-center margin-30 wow fadeIn" data-wow-delay="0.6s">
@@ -168,25 +168,34 @@
 	    </div>
     </section>
 	
-	<section id="photogallery">
-    <div class="text-center">
-      <h2 class="red">Photogallery</h2>
-      <ul id="ul">
-      </ul>
-    <!--token inst 7126735684.1677ed0.5f73f9117397439baa86c54faf4e86b2-->
-    </div>
-  </section>
+	  <section id="mails">
+      <div class="pad-lg">
+      <div class="text-center">
+        <h2 class="red">Отправьте нам письмо!</h2>
+        <button class="btn"><h3 class="white"><a href="/form">Написать!</a></h3></button>
+      </div>
+      </div>
+    </section>
 
-  <section id="location">
+    <section id="photogallery">
+      <div class="text-center">
+        <h2 class="red">Наши фотографии</h2>
+        <ul id="ul">
+        </ul>
+        <!--token inst 7126735684.1677ed0.5f73f9117397439baa86c54faf4e86b2-->
+      </div>
+    </section>
+
+    <section id="location">
 	    <div class="text-center">
-			<h3 class="red">Наши адреса:</h3>
-			<h4>проспект Генерала Тюленева, 3</h4>
-			<h4>ТЦ "Альянс", ул. Рябикова, 70, 2 этаж</h4>
-			<h4>ТЦ "Оптимус", 2 этаж</h4>
-			<h4>м-н "Волжанка", ул. 40 лет Октября, 15</h4>
-		</div>
-		<div><iframe src="https://yandex.ru/map-widget/v1/-/CBBFbKSihC" width="100%" height="100%" frameborder="0"></iframe></div>
-	</section>
+			  <h3 class="red">Наши адреса:</h3>
+			  <h4>проспект Генерала Тюленева, 3</h4>
+			  <h4>ТЦ "Альянс", ул. Рябикова, 70, 2 этаж</h4>
+			  <h4>ТЦ "Оптимус", 2 этаж</h4>
+			  <h4>м-н "Волжанка", ул. 40 лет Октября, 15</h4>
+		  </div>
+		  <div><iframe src="https://yandex.ru/map-widget/v1/-/CBBFbKSihC" width="100%" height="100%" frameborder="0"></iframe></div>
+	  </section>
 	
     <footer>
       <div class="container">
@@ -197,7 +206,7 @@
               <li>Свяжитесь с нами</li>
               <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
               <li><a href="https://vk.com/simbirsk_toys"><i class="fa fa-vk"></i></a></li>
-			  <li><a href="https://www.instagram.com/simbirsk_toys"><i class="fa fa-instagram"></i></a></li>
+			        <li><a href="https://www.instagram.com/simbirsk_toys"><i class="fa fa-instagram"></i></a></li>
             </ul>
           </div>
           
@@ -220,5 +229,5 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
 	
-    </body>
+  </body>
 </html>

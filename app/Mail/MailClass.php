@@ -34,13 +34,13 @@ class MailClass extends Mailable
      */
     public function build()
     {
-        return $this->view(view:'emails.contact-mail')
+        return $this->view('emails.contact-mail')
         ->with([
             'name' => $this->name,
             'email' => $this->email,
             'msg' => $this->msg,
         ])
-        ->subject(subject:'New letter');
+        ->subject('New letter');
 
     }
 }

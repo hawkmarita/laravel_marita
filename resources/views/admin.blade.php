@@ -18,7 +18,7 @@
                     
                 </div>
                 <div>
-                    <button><a href="/search">Users</a></button>
+                    <button><a href="/search">Users Search</a></button>
                 </div>
             </div>
         </div>

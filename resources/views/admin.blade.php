@@ -18,7 +18,7 @@
                     
                 </div>
                 <div>
-                    <button class="btn"><a href="/search">Users</a></button>
+                    <button><a href="/search">Users</a></button>
                 </div>
             </div>
         </div>

@@ -14,7 +14,7 @@ class InstController extends Controller
     public function insta()
     {
 		$query = 'dolls';
-        $images = DB::table('photosgallery')->where('name', 'LIKE', '%' . $query . '%')->paginate(10);
+        $images = DB::table('photosgallery')->where('name', 'dolls')->paginate(10);
         return view('photogallery', compact('photosgallery', 'query'));
 
 		//$images = 

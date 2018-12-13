@@ -13,12 +13,12 @@ class InstController extends Controller
 
     public function insta()
     {
-		$query = 'dolls';
+		/*$query = 'dolls';
         $images = DB::table('photosgallery')->where('name', 'dolls')->paginate(10);
-        return view('photogallery', compact('photosgallery', 'query'));
+        return view('photogallery', compact('photosgallery', 'query'));*/
 
 		//$images = 
 		/*$photosgallery = Album::get();*/
-		//return view ('photogallery')/*->with('description', $photosgallery)*/;
+		return view ('photogallery')/*->with('description', $photosgallery)*/;
 	}
 }

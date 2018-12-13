@@ -36,14 +36,11 @@
         <div class="container"> 
             <div class="main">
                 <ul id="og-grid" class="og-grid">
-                    @foreach($images as $image)
                     <li>
                         <a href="https://vk.com/simbirsk_toys" data-largesrc="img/dolls.jpg" data-description="Мы предлагаем вам большой выбор кукол для ваших маленьких принцесс. У нас вы точно найдете игрушку по душе!">
                             <img src="img/thumbs/dolls.jpg" alt="dolls"/>
-                            <img alt="{{$image->name}}" src="/img/thumbs/{{$image->img}}">
                         </a>
                     </li>
-                    @endforeach
                     <li>
                         <a href="https://vk.com/simbirsk_toys" data-largesrc="img/shop.jpg" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
                             <img src="img/thumbs/shop.jpg" alt="shop"/>

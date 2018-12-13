@@ -164,14 +164,21 @@
 	    </div>
     </section>
 	
-	  <section id="mails">
+    <section id="mails">
       <div class="pad-lg">
       <div class="text-center">
-        <h2 class="red">Отправьте нам письмо!</h2>
+      <h2 class="red">Отправьте нам письмо!</h2>
+    @if (Route::has('login'))
+      @auth
         <button class="btn"><h3 class="white"><a href="/form">Написать!</a></h3></button>
+      @else
+        <p><a href="{{ route('login') }}"><h2 class="black">Login</h2></a></p>
+        <p><a href="{{ route('register') }}"><h2 class="black">Register</h2></a></p>
+       @endauth
+    @endif 
+	    </div>
       </div>
-      </div>
-    </section>
+    </section>   
 
     <section id="photogallery">
       <div class="text-center">
@@ -182,11 +189,13 @@
       </div>
     </section>
 
+    @if (Route::has('admin'))
     <section id="search">
       <div class="text-center">
         <button class="btn"><a href="/search">Search</a></button>
       </div>
     </section>
+    @endif
 
     <section id="location">
 	    <div class="text-center">

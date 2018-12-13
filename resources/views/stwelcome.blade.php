@@ -123,9 +123,7 @@
     					<li class="features last btn btn-secondary btn-wide"><a href="#">Перейти</a></li>
     				</ul>
           </div>
-          
         </div>
-        
       </div>
     </section>
 	
@@ -181,6 +179,12 @@
         <ul id="ul">
         </ul>
         <!--token inst 7126735684.1677ed0.5f73f9117397439baa86c54faf4e86b2-->
+      </div>
+    </section>
+
+    <section id="search">
+      <div class="text-center">
+        <button class="btn"><a href="/search">Search</a></button>
       </div>
     </section>
 

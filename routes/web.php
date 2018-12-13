@@ -15,7 +15,9 @@ Route::get('/', function () {
     return view('stwelcome');
 });
 //Route::post('/usender', 'usenderController@usenderFunc')->name('usender');
-Route::get('/photogallery', 'InstController@insta');
+Route::any('/photogallery', 'InstController@insta');
+Route::get('/search', 'SrchController@srch');
+
 Route::get('/form', function () {
     return view('form');
 });

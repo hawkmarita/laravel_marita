@@ -32,14 +32,18 @@
             <ul id="ph"></ul>
             <h2 class="black">Найдите нужные фотографии здесь!</h2>
         </div>
+
         <div class="container"> 
             <div class="main">
                 <ul id="og-grid" class="og-grid">
+                    @foreach($images as $image)
                     <li>
                         <a href="https://vk.com/simbirsk_toys" data-largesrc="img/dolls.jpg" data-description="Мы предлагаем вам большой выбор кукол для ваших маленьких принцесс. У нас вы точно найдете игрушку по душе!">
                             <img src="img/thumbs/dolls.jpg" alt="dolls"/>
+                            <img alt="{{$image->name}}" src="/img/thumbs/{{$image->img}}">
                         </a>
                     </li>
+                    @endforeach
                     <li>
                         <a href="https://vk.com/simbirsk_toys" data-largesrc="img/shop.jpg" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
                             <img src="img/thumbs/shop.jpg" alt="shop"/>
@@ -76,7 +80,7 @@
                     return false;
                 } );
             });
-        </script>     
+        </script>    
     </body>
 </html>
 	 <!--token inst 7126735684.1677ed0.5f73f9117397439baa86c54faf4e86b2  7126735684.605f1a0.b59d9854f73044648e93d84eff96a9cb--> 

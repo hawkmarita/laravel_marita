@@ -8,11 +8,11 @@
   <body>
     <div>
       <h1>Work</h1>
-      <ul>
+     <!-- <ul>
           @foreach($users->users as $user)
                   <li>{{ $user->name }}</li>
           @endforeach
-        </ul>
+        </ul>-->
     </div>
   </body>
 </html>

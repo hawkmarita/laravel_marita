@@ -10,8 +10,8 @@ class SrchController extends Controller
 {
     public function srch()
     {
-		$users = DB::table('users')->get();
+		//$users = DB::table('users')->get();
         //return View::make('index')->with('posts', $posts);
-		return view ('search', compact('users'));
+		return view ('search'/*, compact('users')*/);
 	}
 }

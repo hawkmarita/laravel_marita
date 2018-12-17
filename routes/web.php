@@ -16,7 +16,11 @@ Route::get('/', function () {
 });
 //Route::post('/usender', 'usenderController@usenderFunc')->name('usender');
 Route::get('/photogallery', 'InstController@insta');
-//Route::get('/search', 'SrchController@srch');
+
+Route::get('/adminpan', 'AdmPanController@index');
+
+//Это не работает
+Route::get('/search', 'SrchController@srch');
 Route::post('/search', 'SrchController@srch');
 
 Route::get('/form', function () {

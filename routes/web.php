@@ -14,10 +14,10 @@
 Route::get('/', function () {
     return view('stwelcome');
 });
+Route::any('adminpan', 'AdmPanController@tratata');
 //Route::post('/usender', 'usenderController@usenderFunc')->name('usender');
 Route::get('/photogallery', 'InstController@insta');
 
-Route::get('/adminpan', 'AdmPanController@index');
 
 //Это не работает
 Route::get('/search', 'SrchController@srch');

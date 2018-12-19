@@ -37,7 +37,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="logo" href="index.html"><img src="img/bear.png" alt="Logo"></a>
+          <a class="logo" href="#pricing"><img src="img/bear.png" alt="Logo"></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -62,7 +62,7 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-6">
-            <a href="index.html"><img src="img/bear1.png" alt="Logo"></a>
+            <a href="#pricing"><img src="img/bear1.png" alt="Logo"></a>
           </div>
           <div class="col-xs-6 signin text-right navbar-nav">
 		<b><a href="#pricing" class="scroll stroke">Симбирский Дом Игрушки</a></b>

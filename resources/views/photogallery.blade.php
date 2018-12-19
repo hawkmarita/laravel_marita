@@ -42,22 +42,22 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://vk.com/simbirsk_toys" data-largesrc="img/shop.jpg" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+                        <a href="https://vk.com/simbirsk_toys" data-largesrc="img/shop.jpg" data-description="Устроить праздник любимым не так уж сложно 😄 Ведь каждый подарок из Симбирского Дома Игрушки всегда становится маленьким праздником 🎈🎉 Дарите друг другу радость 😊💘">
                             <img src="img/thumbs/shop.jpg" alt="shop"/>
                         </a>
                     </li>
                     <li>
-                        <a href="https://vk.com/simbirsk_toys" data-largesrc="img/shop2.jpg" data-description="Cabbage bamboo shoot broccoli rabe chickpea chard sea lettuce lettuce ricebean artichoke earthnut pea aubergine okra brussels sprout avocado tomato.">
+                        <a href="https://vk.com/simbirsk_toys" data-largesrc="img/shop2.jpg" data-description="Друзья! Мы есть и ВКонтакте 💙 Присоединяйтесь и следите за новостями, чтобы ничего не пропустить!👇👇👇">
                             <img src="img/thumbs/shop2.jpg" alt="shop2"/>
                         </a>
                     </li>
                     <li>
-                        <a href="https://vk.com/simbirsk_toys" data-largesrc="img/shop3.jpg" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+                        <a href="https://vk.com/simbirsk_toys" data-largesrc="img/shop3.jpg" data-description="Наши прекрасные лавки чудес уже давно пробудились и ждут Вас в гости! 🏠✨ Смотрите, какой у нас огромный выбор для любителей конструкторов 😋💛 Ну что, уже готовы прийти? 😄">
                             <img src="img/thumbs/shop3.jpg" alt="shop3"/>
                         </a>
                     </li>
                     <li>
-                        <a href="https://vk.com/simbirsk_toys" data-largesrc="img/shop4.jpg" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+                        <a href="https://vk.com/simbirsk_toys" data-largesrc="img/shop4.jpg" data-description="А Вы уже познакомились с нашими плюшевыми друзьями?😊 В наших магазинах их очень много! Вы точно найдете себе милого любимца, с которым не захотите расставаться ❤">
                             <img src="img/thumbs/shop4.jpg" alt="shop4"/>
                         </a>
                     </li>

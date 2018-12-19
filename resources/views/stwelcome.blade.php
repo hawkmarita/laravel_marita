@@ -43,6 +43,8 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#pricing" class="scroll"><b>О нас</b></a></li>
             <li><a href="#location" class="scroll"><b>Где мы?</b></a></li>
+            <li><a href="#mails" class="scroll"><b>Напишите нам</b></a></li>
+            <li><a href="#photogallery" class="scroll"><b>Фото</b></a></li>
             @if (Route::has('login'))
                     @auth
                         <li><a href="{{ url('/home') }}"><b>Home<b></a></li>
@@ -63,15 +65,7 @@
             <a href="index.html"><img src="img/bear1.png" alt="Logo"></a>
           </div>
           <div class="col-xs-6 signin text-right navbar-nav">
-            @if (Route::has('login'))
-                    @auth
-                        <a href="{{ url('/home') }}" class="scroll stroke"><b>Home</b></a>
-                    @else
-                        <a href="{{ route('login') }}" class="scroll stroke"><b>Login</b></a>&nbsp; 
-                        &nbsp;<a href="{{ route('register') }}" class="scroll stroke"><b>Register</b></a>&nbsp;
-                    @endauth
-            @endif
-			&nbsp;<b><a href="#pricing" class="scroll stroke">О нас</a></b>&nbsp; &nbsp;<b><a href="#location" class="scroll stroke">Где мы?</a></b>
+		<b><a href="#pricing" class="scroll stroke">Симбирский Дом Игрушки</a></b>
 		  </div>
         </div>
         

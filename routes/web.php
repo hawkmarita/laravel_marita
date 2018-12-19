@@ -14,10 +14,13 @@
 Route::get('/', function () {
     return view('stwelcome');
 });
-Route::any('adminpan', 'AdmPanController@tratata');
+Route::get('adminpan', array('as' => 'adminpan','uses' => 'AdmPanController@tratata') );
 //Route::post('/usender', 'usenderController@usenderFunc')->name('usender');
 Route::get('/photogallery', 'InstController@insta');
 
+//Route::resource('queries', 'AdmPanController@search');
+
+Route::post('/adminpan', 'AdmPanController@search');
 
 //Это не работает
 Route::get('/search', 'SrchController@srch');
@@ -26,6 +29,9 @@ Route::post('/search', 'SrchController@srch');
 Route::get('/form', function () {
     return view('form');
 });
+//Route::get('/adminpan', function () {
+//    return view('adminpan');
+//});
 Route::post('send-mail', 'MailSetting@send_form');
 
 Auth::routes();

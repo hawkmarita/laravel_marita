@@ -29,11 +29,16 @@
       
   </head>
   <body>
-  	<h1>WOOORK</h1>
+  	<h1>Список:</h1>
   	<div class="container">
-  		@foreach ($users as $user)
-  		  {{ $user->name }}
-  		@endforeach
 	</div>
+     {!! Form::open(array('rout' => 'queries.search', 'class'=>'form navbar-form navbar-right searchform')) !!}
+      {!! Form::text('search', null,array('class'=>'form-control','placeholder'=>'Search for a tutorial...')) !!}
+      {!! Form::submit('Search',array('class'=>'btn btn-default')) !!}
+     {!! Form::close() !!}
+      @foreach ($users as $user)
+        {{ $user->name }}<br>
+        {{ $user->email }}<br><br>
+      @endforeach
   </body>
 </html>
